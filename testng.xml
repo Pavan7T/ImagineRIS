@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ImagineRIS">
+
+	<test thread-count="5" name="Patientadd_Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!--<class name="ImagineRIS.TestCases.TC_LoginPage_001" /> -->
+			<class name="ImagineRIS.TestCases.TC_LoginPage_001" />
+			<class name="ImagineRIS.TestCases.TC_THPLogin_002" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+ 
